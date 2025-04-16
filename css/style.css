@@ -1,0 +1,55 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+.header {
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+.header-1 {
+    border: 3px solid green;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+margin-bottom: 0;
+}
+
+.header-2 {
+    width: 30%;
+    border: 2px dotted purple;
+    display: flex;
+    justify-content: space-around;
+}
+.header-1 img {
+    width: 1.75rem;
+    height: 1.75rem;
+    display: block;
+    /* margin-top: 0; */
+}
+.featured-article {
+    position: relative;
+    width: 100vw;
+    height: 25vh;
+    background-image: url('https://picsum.photos/id/22/175/150');
+    background-size: cover;
+    background-position: center;
+}
+.articles-wrapper {
+    background-color: #A4B0B3;
+    /* background-color: red; */
+    padding: 3.5rem;
+}
+article img {
+    width: 100%;
+}
